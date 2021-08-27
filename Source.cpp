@@ -63,29 +63,29 @@ int main()
 	alquiler5->FinalizarAlquiler();
 
 	//BORRAMOS MEMORIA
-	delete alquiler1;
-	delete alquiler2;
-	delete alquiler3;
-	delete alquiler4;
 	delete alquiler5;
+	delete alquiler4;
+	delete alquiler3;
+	delete alquiler2;
+	delete alquiler1;
 	
 
-	delete c1;
-	delete c2;
-	delete c3;
-	delete c4;
 	delete c5;
+	delete c4;
+	delete c3;
+	delete c2;
+	delete c1;
 
-	delete v1;
-	delete v2;
-	delete v3;
 	delete v4;
+	delete v3;
+	delete v2;
+	delete v1;
 
-	delete f_devolucion1;
-	delete f_devolucion2;
-	delete f_devolucion3;
-	delete f_devolucion4;
 	delete f_devolucion5;
+	delete f_devolucion4;
+	delete f_devolucion3;
+	delete f_devolucion2;
+	delete f_devolucion1;
 
 	return 0;
 }
