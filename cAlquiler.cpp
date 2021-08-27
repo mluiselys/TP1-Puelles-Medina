@@ -20,10 +20,6 @@ cAlquiler::cAlquiler(cCliente* cliente, cVehiculo* vehiculo, tm* fecha_devolucio
 }
 
 cAlquiler::~cAlquiler() {
-	//Verifica que los punteros esten bien
-	if (Cliente != NULL) delete Cliente;
-	if (Vehiculo_Alquilado != NULL) delete Vehiculo_Alquilado;
-	//if (fecha_devolucion != NULL) delete fecha_devolucion;
 }
 
 void cAlquiler::CalcularMontoTotal() {
